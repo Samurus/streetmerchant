@@ -19,7 +19,7 @@ export const StickerPoint: Store = {
       model: 'test:model',
       series: 'test:series',
       url:
-        'https://www.stickerpoint.de/lego-ninjago-serie-trading-cards-tin-mega-set-p-1750.html',
+        'https://www.stickerpoint.de/panini-wm-2010-komplettset-alle-sticker-album-p-52.html',
     },
     {
       brand: 'nintendo',
@@ -27,6 +27,20 @@ export const StickerPoint: Store = {
       series: 'pokemon',
       url:
         'https://www.stickerpoint.de/pokemon-schwert-schild-kampfstile-display-mit-36-tueten-p-1688.html',
+    },
+    {
+      brand: 'nintendo',
+      model: 'SWSH4.5',
+      series: 'pokemon',
+      url:
+        'https://www.stickerpoint.de/pokemon-glaenzendes-schicksal-schillerndes-iksbat-vmax-premium-kollektion-p-1775.html',
+    },
+    {
+      brand: 'nintendo',
+      model: 'SWSH4.5',
+      series: 'pokemon',
+      url:
+        'https://www.stickerpoint.de/pokemon-glaenzendes-schicksal-schillerndes-katapuldra-vmax-premium-koll-p-1776.html',
     },
   ],
   name: 'stickerpoint',
