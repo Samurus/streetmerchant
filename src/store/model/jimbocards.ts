@@ -23,7 +23,7 @@ export const JimboCards: Store = {
     },
     {
       brand: 'nintendo',
-      model: 'sword & shield 4.5',
+      model: 'SWSH4.5',
       series: 'pokemon',
       url:
         'https://shop-jimbocards.company.site/Schwert-&-Schild-4-5-Gl%C3%A4nzendes-Schicksal-Top-Trainer-Box-DE-p256685234',

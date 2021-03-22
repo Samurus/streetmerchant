@@ -407,7 +407,7 @@ const store = {
   showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, [
     'pokemon',
   ]),
-  stores: envOrArray(process.env.STORES, ['jimbocards']).map(entry => {
+  stores: envOrArray(process.env.STORES, ['stickerpoint', 'jimbocards']).map(entry => {
     const [name, minPageSleep, maxPageSleep] = entry.match(/[^:]+/g) ?? [];
 
     let proxyList = loadProxyList(name);
