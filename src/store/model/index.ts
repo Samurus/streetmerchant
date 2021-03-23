@@ -143,6 +143,7 @@ import {Xbox} from './xbox';
 import {Zotac} from './zotac';
 import {logger} from '../../logger';
 import {JimboCards} from "./jimbocards";
+import {CardiCuno} from "./cardicuno";
 
 export const storeList = new Map([
   [AComPC.name, AComPC],
@@ -287,6 +288,8 @@ export const storeList = new Map([
   [Wipoid.name, Wipoid],
   [Xbox.name, Xbox],
   [Zotac.name, Zotac],
+  [CardiCuno.name, CardiCuno],
+
 ]);
 
 const brands = new Set();
